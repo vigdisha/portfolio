@@ -1,0 +1,142 @@
+html,
+body {
+  /* background: url(https://media.istockphoto.com/photos/office-desktop-with-laptop-red-background-technology-concept-picture-id1124347647?b=1&k=20&m=1124347647&s=170667a&w=0&h=lCcU8qrJFG3clUozTlitd5MR8sNotoSa20CUgZbKTyQ=)no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-container {
+  padding-top: 200px;
+  text-align: center;
+  /* padding: 200px 300px 100px 450px;    */
+  font-family: 'Titillium Web', sans-serif;
+  display: inline-block;
+
+}
+
+.middle-container {
+  margin-left: 20px;
+
+}
+
+#btn {
+
+  padding-left: 0px;
+  border: none;
+  background: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.4rem;
+
+}
+
+.top-container h2 {
+  font-size: 2rem;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
+  text-align: center;
+}
+
+/* typewriter effect */
+h1 {
+  display: flex;
+
+
+}
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid black;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(10, end),
+    blink-caret .75s step-end infinite;
+  font-size: 2.5rem;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  20% {
+    border-color: black;
+  }
+}
+
+/* background */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, black 50%, grey 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: .5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+  text-align: center;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
+}
