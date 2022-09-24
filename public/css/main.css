@@ -1,7 +1,9 @@
-body, html{
+body,
+html {
   padding: 0;
   margin: 0;
 }
+
 /* Navabar */
 .navbar {
   padding-bottom: 4rem;
@@ -44,57 +46,64 @@ body, html{
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  
+
 }
+
 
 
 /* .About-container h1 {
   /* margin-left: 60%; */
-  /* padding-top: 10px;
+/* padding-top: 10px;
   resize: none; */
-  
 
-.mid-container{
+
+.mid-container {
   font-family: 'Playfair Display SC', serif;
-    float: right;
-    width: 45%;
-    margin: 0 10px auto;
-    padding-top: 20px;
-    height: 500px;
+  float: right;
+  width: 45%;
+  margin: 0 10px auto;
+  padding-top: 20px;
+  height: 500px;
 
 }
-.mid-container p{
+
+.mid-container p {
   padding-top: 10px;
-} 
-  
+}
+
 @media screen and (max-width: 700px) {
   .mid-container {
-   font-weight: 300;
+    font-weight: 300;
     font-size: 12px;
-     
-    
+
+
   }
-} 
+}
+
 /* skills section */
 
-#Skills{
+#Skills {
+  background-color:  #c0c0c0;
   font-family: 'Playfair Display SC', serif;
-  padding:25px;
+  padding: 25px;
   text-align: center;
-  background-color: white;
+  color:black;
+   /* background-color: white; */
 }
-div.row.skill-column{
+
+div.row.skill-column {
   height: 100%;
   padding-bottom: 100px;
 }
-div.row.columnss{
+
+div.row.columnss {
   padding-top: 25px;
 }
 
-.header{
+.header {
   transition: 0.5s;
-    -webkit-transition: .4s ;
-  -moz-transition:  .4s ;  
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
 }
 
 .header:hover {
@@ -103,126 +112,151 @@ div.row.columnss{
 
 /* project section */
 
-#Projects{
-
-  color: white;
-  background-color: #313131;
+#Projects {
+  color: black;
   
-font-family: 'Playfair Display SC', serif;
+  font-family: 'Playfair Display SC', serif;
 }
-.project-title{
-font-family: 'Playfair Display SC', serif;
-padding: 30px;
+
+.project-title {
+  font-family: 'Playfair Display SC', serif;
+  padding: 30px;
   text-align: center;
 }
 
 
-.project-grid{
+.project-grid {
   padding-bottom: 65px;
-  padding-left:25%;
+  padding-left: 20%;
+  padding-right: 20%;
 
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
 .project-img {
-  
- 
-  transition: transform .2s; /* Animation */
-  
+
+  padding-top: 10px;
+  transition: transform .2s;
+  /* Animation */
+
+}
+.card-text{color:black;}
+.card-title{
+  color: black;
 }
 
 .project-img:hover {
-  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.3);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* contact section */
+.contact-grid {
+  background-image: url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-el%C4%ABna-ar%C4%81ja-3377405.jpg&fm=jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  height: 500px;
+}
 
-.contact-img{
+.contact-img {
+
   height: 200px;
   width: 200px;
   /* margin-left:50px; */
 
 }
 
-.contact-grid h2{
-padding-top: 25px;
-font-family: 'Playfair Display SC', serif;
-text-align: center;
+.contact-grid h2 {
+  padding-top: 25px;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
-#lname{
-  background-color: #CDCDCD;
-  border: 0;
-  border-radius:8px; 
-}
-#fname{
-  background-color: #CDCDCD;
-  border: 0;
-  border-radius: 8px;
-}
-#email{
+#lname {
   background-color: #CDCDCD;
   border: 0;
   border-radius: 8px;
 }
 
- #email 
-{width: 457px;
- }
+#fname {
+  background-color: #CDCDCD;
+  border: 0;
+  border-radius: 8px;
+}
+
+#email {
+  background-color: #CDCDCD;
+  border: 0;
+  border-radius: 8px;
+}
+
+#email {
+  width: 457px;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:200px;
+  width: 200px;
   height: 200px;
   border: 0cm;
 }
-textarea{
+
+textarea {
   border-radius: 8px;
   background-color: #CDCDCD;
   border: 0cm;
 
 }
- .contact-row{
+
+.contact-row {
   text-align: center;
- }
+}
 
- button{
+button {
   border: 0.05cm solid black;
- background-color:#CDCDCD;
- 
- }
- .container-form{
-  padding-bottom: 15px;
- }
+  background-color: #CDCDCD;
 
- /* social section */
-#socials{
-  margin:0;
+}
+
+.container-form {
+  padding-bottom: 15px;
+}
+
+/* social section */
+#socials {
+  margin: 0;
   width: auto;
   height: 0;
-  
+
 }
- .social{
+
+.social {
   padding-top: 10px;
-  background-color: black;
+  background-color: rgb(44, 46, 54);
+  ;
   color: white;
   font-family: 'Playfair Display SC', serif;
   font-weight: 400;
   padding-bottom: 0;
- }
- 
- .icon{
+}
+
+.icon {
   color: inherit;
   float: right;
-  padding:0 1.2rem 0 0;
- }
- 
- footer{
+  padding: 0 1.2rem 0 0;
+}
+
+footer {
   text-align: center;
 
- }
+}
