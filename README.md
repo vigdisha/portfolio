@@ -1,6 +1,6 @@
 # portfolio
 <a href="https://dishavig.netlify.app/">This is my portfolio website.</a>
-<p>This is a basic html portfolio</p>
+<p>This is a basic ststic portfolio</p>
 <p>made during beginning of my web dev learning</p>
 # Getting Started
 1) clone this repo.
