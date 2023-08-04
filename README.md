@@ -9,3 +9,6 @@
 # development
 1) ### node app.js
 2) go to localhost:3000
+
+# deployment
+netlify:https://dishavig.netlify.app/
